@@ -20,7 +20,7 @@ Import and use the `grapeJsTailwindUiComponents` function to add components to y
 import grapesjs from "grapesjs";
 import grapesJsTailwindUiComponents from 'grapesjs-tailwind-ui-components';
 
-const editor = grapesjs.init();
+const editor = grapesjs.init("gjs");
 
 const components = [
   [

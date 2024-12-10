@@ -1,0 +1,22 @@
+{
+  "name": "grapejs-tailwind-ui-components",
+  "version": "1.0.0",
+  "description": "This package integrates Tailwind UI components into GrapesJS, allowing you to easily add customizable components with SVG and HTML content.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srhafid/grapejs-tailwind-ui-components.git"
+  },
+  "author": "srhafid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srhafid/grapejs-tailwind-ui-components/issues"
+  },
+  "homepage": "https://github.com/srhafid/grapejs-tailwind-ui-components#readme",
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
+}
