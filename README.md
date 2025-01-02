@@ -47,8 +47,6 @@ This plugin adds the necessary support for Twilwind to work correctly with its c
 **grapesJsTailwindUiComponents:**
 This is a feature which allows us to add our custom components eschos with tailwind
 
-Code in `index.html` for example.
-
 **NOTE**
 The general functionality allows, for example, injecting a specific selector that can be changed in the options of our `grapeJsTailwindSupport` plugin. It is only necessary to modify the selector, which by default is the `style` tag selector from Vite when it is already rendered. To use a different selector, you need to change the `data_selector: 'style[data-vite-dev-id]' # by new value` option and assign it the corresponding value. This is because the main functionality involves injecting the parent styles into the iframe. This approach may lead to some issues, so I recommend exercising caution when using it.
 
