@@ -18,14 +18,14 @@ Import and use the `grapeJsTailwindUiComponents` function to add components to y
 
 ```javascript
 import grapesjs from "grapesjs";
-import { grapeJsTailwindSupport, grapesJsTailwindUiComponents } from 'grapesjs-tailwind-ui-components';
+import { grapeJsTailwindSupport, grapeJsTailwindUiComponents } from 'grapesjs-tailwind-ui-components';
 
-const editor = grapesjs.init(
-  "#gjs",
+const editor = grapesjs.init({
+  container: '#gjs',
   plugins: [
-      grapeJsTailwindSupport // support by tailwind css
-    ]
-  );
+    grapeJsTailwindSupport
+  ]
+});
 
 const components = [
   [
@@ -40,7 +40,7 @@ const components = [
   ]
 ];
 
-grapesJsTailwindUiComponents(editor, components); // allows us to add components with a certain structure that use tailwind
+grapeJsTailwindUiComponents(editor, components); // allows us to add components with a certain structure that use tailwind
 ```
 **grapeJsTailwindSupport (plugin):**
 This plugin adds the necessary support for Twilwind to work correctly with its custom components or from the component kits that are already being created.
