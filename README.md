@@ -28,7 +28,6 @@ const editor = grapesjs.init({
 });
 
 const components = [
-  [
     {
       id: 'button-1',
       class: 'btn-primary',
@@ -37,7 +36,6 @@ const components = [
       category: 'UI Components',
     },
     // More components...
-  ]
 ];
 
 grapeJsTailwindUiComponents(editor, components); // allows us to add components with a certain structure that use tailwind
